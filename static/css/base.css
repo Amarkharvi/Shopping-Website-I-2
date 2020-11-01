@@ -1,0 +1,247 @@
+#Header{
+    font-size: 40px;
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.cartmsg{
+    background-color: rgb(201, 209, 183);
+    text-align: right;
+    padding: 10px;
+    color: darkslategrey;
+}
+
+.landscape a{
+    font-size: large;
+}
+
+
+#sidebar{
+   padding-left: 5px;
+  
+}
+
+.listbg{
+    list-style-type: none;
+    padding-left: 0;
+    padding: 20px;   
+}
+
+.listbg a{
+    border-radius: 5px;
+    
+} 
+
+.selected{
+    background-color: skyblue;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.selected a{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+a{
+    text-decoration: solid;
+    line-height: 40px;
+    text-align: center;
+    inline-size: auto;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+   
+}
+
+.pagebg{
+    display: flex;
+    flex-direction: r;
+    align-items: stretch;
+    align-self: stretch;
+    align-content: stretch;
+}
+
+.item{
+   align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.landscape a{
+    margin: 0;
+}
+.landscape{
+    display: flex;
+    align-items: stretch;
+}
+.product-list{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.product-detail{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.desc{
+    flex-direction: column;
+    padding-left: 20px;
+    align-items: stretch;
+    width: 100%;
+}
+
+.desc input {
+    padding: 10px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: white;
+    color: white;
+    margin-left: 20px;
+}
+.desc label{
+    padding: 10px;
+}
+.desc h1{
+    margin: 0;
+    text-transform: capitalize;
+}
+.desc h3{
+    margin: 0;
+    margin-left: 5px;
+
+}
+.desc p{
+    margin: 5;
+    margin-left: 5px;
+
+}
+.desc select{
+    padding: 8px;
+}
+
+.cart-align{
+    display: flex;
+    flex-direction: column;
+}
+.cart{
+    align-items: stretch;
+    align-content: stretch;
+    align-self: stretch;
+    line-height: 30px;
+
+}
+.cart thead {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+
+}
+
+.cart tbody{
+    background-color: aliceblue;
+}
+
+
+.total{
+    background-color: blueviolet;
+    color: white;
+    line-height: 30px;
+}
+
+.cart td{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.cart img{
+    width: 200px;
+    height: 200px;
+}
+
+.button{
+    background-color:blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.buttonlight{
+    padding:10px;
+    border-radius: 5px;
+    background-color: skyblue;
+    color: black;
+}
+
+.text-right{
+    padding-left: 30px;
+    align-self: center;
+}
+
+.checkout{
+    display: flex;
+    flex-direction: column;
+}
+.checkout div{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+.checkout label{
+    padding: 5px;
+    
+}
+.checkout form{
+    display: flex;
+    flex-direction: column;
+}
+.checkout p{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+}
+.checkout input{
+    padding: 5px;
+    border-radius: 10px;
+    border-width: 1px;
+    align-self: center;  
+}
+
+#order-info{
+    margin-left: 100px;
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 5px;
+    flex-direction: column;
+    display: flex;
+    height: min-content;
+    text-align: center;
+    align-self: center;
+    
+}
+
+#place-order input{
+    background-color: blueviolet;
+    color: white;
+    margin-top: 20px;
+    border-color: white;
+    
+}
+
+.ordered{
+    display: flex;
+    flex-direction: column;
+}
