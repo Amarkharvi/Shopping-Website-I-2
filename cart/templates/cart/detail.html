@@ -23,7 +23,16 @@
 										<tr>
 												<td>
 														<a	href="{{	product.get_absolute_url	}}">
-																<img	src="{%	if	product.image	%}{{	product.image.url	}}{%	else	%}
+																<img	src="
+																{%	if	product.pk == 6	%}
+										{%	static	'img/iphone.png'	%}
+										{%  elif product.pk == 7 %}
+										{%	static	'img/oneplus.png'	%}
+										{%  elif product.pk == 8 %}
+										{%	static	'img/cricket.png'	%}
+										{%  elif product.pk == 9 %}
+										{%	static	'img/ball.png'	%}
+																{%	else	%}
 				{%	static	"img/no_image.png"	%}{%	endif	%}">
 														</a>
 												</td>

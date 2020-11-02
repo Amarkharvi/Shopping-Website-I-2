@@ -7,7 +7,16 @@
 
 {%	block	content	%}
 		<div	class="product-detail">
-				<img	src="{%	if	product.image	%}{{	product.image.url	}}{%	else	%}
+				<img	src="
+				{%	if	product.pk == 6	%}
+										{%	static	'img/iphone.png'	%}
+										{%  elif product.pk == 7 %}
+										{%	static	'img/oneplus.png'	%}
+										{%  elif product.pk == 8 %}
+										{%	static	'img/cricket.png'	%}
+										{%  elif product.pk == 9 %}
+										{%	static	'img/ball.png'	%}
+										{%	else	%}
 				{%	static	"img/no_image.png"	%}{%	endif	%}">
 				<div class="desc">
 				<h1>{{	product.name	}}</h1>
